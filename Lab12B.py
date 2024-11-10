@@ -3,8 +3,7 @@
 # Term: Fall 2024
 # Instructor: Tejaswini Karanam
 # Name: Zachary Taylor
-# Program: Lab12A.py
-
+# Program: Lab12B.py
 class dog():
     def __init__(self, age, weight, name, furColor, breed):
         self.age = age
