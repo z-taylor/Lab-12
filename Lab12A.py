@@ -16,7 +16,6 @@ print("")
 rolling = True if input("Is your chair rolling (true/false): ").lower() in ("true", "t") else False
 print("")
 material = input("What is your chair made of: ")
-print("")
 chair1 = chair(legs, rolling, material)
 print("")
 print(f"Your chair has {chair1.numOfLegs} legs, {'is' if chair1.rolling==True else 'is not'} rolling, and is made of {chair1.material}.")
