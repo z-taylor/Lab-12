@@ -14,13 +14,14 @@ class dog():
     def bark(self):
         print("Woof! Woof!")
     def rename(self):
-        self.name = input(f"{self.name} isn’t a very good name. What should they be renamed to: ")
+        self.name = input(f'{self.name} isn"t a very good name. What should they be renamed to: ')
     def eat(self):
         self.weight += float(input(f"{self.name} is hungry, how much should he eat: "))
 
-age = input("You are about to create a dog.\nHow old is the dog: ")
+print("You are about to create a dog.")
+age = input("How old is the dog: ")
 weight = float(input("How much does the dog weigh: "))
-name = input("What is the dog’s name: ")
+name = input('What is the dog"s name: ')
 color = input("What color is the dog: ")
 breed = input("What breed is the dog: ")
 dog1 = dog(age, weight, name, color, breed)
