@@ -12,7 +12,6 @@ class chair():
 
 print("You are about to create a chair.")
 legs = int(input("How many legs does your chair have: "))
-print("")
 rolling = True if input("Is your chair rolling (true/false): ").lower() in ("true", "t") else False
 print("")
 material = input("What is your chair made of: ")
