@@ -19,7 +19,7 @@ class dog():
         self.weight += float(input(f"{self.name} is hungry, how much should he eat: "))
 
 print("You are about to create a dog.")
-age = input("How old is the dog: ")
+age = int(input("How old is the dog: "))
 print("")
 weight = float(input("How much does the dog weigh: "))
 print("")
